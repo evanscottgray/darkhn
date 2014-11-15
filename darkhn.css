@@ -1,2 +1,9 @@
 @-moz-document regexp("(http|https):\/\/news\.ycombinator\.co.+") {
+  body {
+    background-color: black;
+  }
+
+  table {
+    background-color: darkgray;
+  }
 }
